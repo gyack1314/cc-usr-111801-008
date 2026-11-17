@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://source-008.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-008.example.test/records/forecast-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 188,
+        "sha256": "23956d5aba1a368ae4ed9aead745448f28f934fd0af0084c6cac438cf16f5296"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-008.example.test/records/forecast-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 188,
+        "sha256": "ccc1782c25542a3ee3c670ce50516e4c9f1912e85086856a617dbb0364351089"
+      }
+    }
+  ]
+}

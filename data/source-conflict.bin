@@ -1,0 +1,11 @@
+{
+  "kind": "forecast",
+  "id": "forecast-A",
+  "revision": "v1",
+  "phase": "一期",
+  "jurisdiction": "丙地",
+  "references": [
+    "worksheet-B"
+  ],
+  "attachment": "source-2.bin"
+}

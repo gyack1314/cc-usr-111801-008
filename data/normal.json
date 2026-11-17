@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://source-008.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-008.example.test/records/forecast-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 188,
+        "sha256": "23956d5aba1a368ae4ed9aead745448f28f934fd0af0084c6cac438cf16f5296"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-008.example.test/records/worksheet-B",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 178,
+        "sha256": "48e3a49f5435b99bfcf75294437d9a303a54d660a9eb875444bd27859281b1f1"
+      }
+    }
+  ]
+}
