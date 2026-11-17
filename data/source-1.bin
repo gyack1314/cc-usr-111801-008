@@ -2,10 +2,8 @@
   "kind": "forecast",
   "id": "forecast-A",
   "revision": "v1",
-  "phase": "一期",
-  "jurisdiction": "甲地",
-  "references": [
-    "worksheet-B"
-  ],
-  "attachment": "source-2.bin"
+  "period": "一期达产",
+  "value_tonnes": 1730000,
+  "boundary": "grey-hydrogen-replacement",
+  "status": "forecast"
 }
